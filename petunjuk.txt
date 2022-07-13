@@ -1,0 +1,4 @@
+-- for build golang --
+go build helloworld.go
+
+go run helloworld.go # running without compile
