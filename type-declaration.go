@@ -10,5 +10,4 @@ func main() {
 	var marriedStatus bool = true
 	fmt.Println(noKtpHendrik)
 	fmt.Println(marriedStatus)
-
 }
