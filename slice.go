@@ -91,7 +91,7 @@ func main() {
 	fmt.Println("---------------")
 	fmt.Println("")
 
-	copySlice := make([]string, len(newSlice), cap(newSlice))
+	copySlice := make([]string, len(newSlice), cap(newSlice)) // membuat slice dengan function make
 	copy(copySlice, newSlice)
 	fmt.Println(copySlice)
 
