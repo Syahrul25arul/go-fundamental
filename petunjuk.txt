@@ -1,0 +1,4 @@
+jika ada error package is not in module
+
+set env variable windows GOPATH=direktori-project
+di terminal ketikan `go env -w GO111MODULE=off`
