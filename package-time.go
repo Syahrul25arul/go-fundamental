@@ -18,7 +18,9 @@ func main() {
 	utc := time.Date(1996, 2, 25, 5, 30, 25, 22, time.UTC)
 	fmt.Println(utc)
 
-	layout := "2006-01-02"
-	parse, _ := time.Parse(layout, "1996-02-25")
-	fmt.Println(parse)
+	layout := "02-01-2006"
+	parse, _ := time.Parse(layout, "25-02-1996")
+	fmt.Println(parse.Date())
+	times := time.Now()
+	fmt.Println(times)
 }
